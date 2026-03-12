@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Blog Games</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Jersey+10&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+    </style>
+</head>
+
+<body>
+    <nav class="menu">
+        <div class="menu-logo">
+            <button onclick="menu()"><img src="img/menu_img/menu-aberto.png"></button>
+            <div id="lista_menu" class="lista-menu">
+                <ul>
+                    <div class="lista_menu_mobile">
+                        <li><button>Login</button></li>
+                        <li><a href="/">Jogos</a></li>
+                        <li><a href="/">Noticias</a></li>
+                        <li><a href="/">Eventos</a></li>
+                        <li><button onclick="tema_mobile()" class="button-menu-mobile">Tema</button><img
+                                src="img/menu_img/modo-noturno.png"></li>
+                        <li><button onclick="linguagem_mobile()" class="button-menu-mobile">Linguagem</button><img
+                                src="img/menu_img/seta-para-baixo.png"></li>
+                        <div id="linguagem_mobile" class="lista-linguagem-mobile">
+                            <ul>
+                                <li><img src="img/menu_img/idiomas_img/estados-unidos.png"><button>English</button></li>
+                                <li><img src="img/menu_img/idiomas_img/brasil.png"><button>Português</button></li>
+                                <li><img src="img/menu_img/idiomas_img/espanha.png"><button>Español</button></li>
+                                <li><img src="img/menu_img/idiomas_img/franca.png"><button>Français</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <li><a href="/">Configurações</a></li>
+                    <li><a href="/">Sobre Nós</a></li>
+                    <li><a href="/">Politica de Privacidade</a></li>
+                    <li><a href="/">Ajuda</a></li>
+                </ul>
+            </div>
+            <h2>Blog Games</h2>
+        </div>
+        <div class="menu-links">
+            <a href="/">Jogos</a>
+            <a href="/">Noticias</a>
+            <a href="/">Eventos</a>
+        </div>
+        <div class="menu-login">
+            <button onclick="linguagem()" class="linguagem">PT<img src="img/menu_img/seta-para-baixo.png"></button>
+            <div id="lista_linguagem" class="lista-linguagem">
+                <ul>
+                    <li><img src="img/menu_img/idiomas_img/estados-unidos.png">English</li>
+                    <li><img src="img/menu_img/idiomas_img/brasil.png">Português</li>
+                    <li><img src="img/menu_img/idiomas_img/espanha.png">Español</li>
+                    <li><img src="img/menu_img/idiomas_img/franca.png">français</li>
+                </ul>
+            </div>
+            <button>Login</button>
+        </div>
+    </nav>
+
+    <div class="header">
+        <header>
+            <h1>Blog Games</h1>
+        </header>
+        <div>
+            <h2>Jogos</h2>
+            <a href="/">ver mais<img src="img/menu_img/seta-para-baixo.png"></a>
+        </div>
+    </div>
+    <div class="jogos-index">
+        <a href=""><img src="img/indeximg/CODwarzone.jpeg"></a>
+        <a href=""><img src="img/indeximg/Fortnite.jpeg"></a>
+        <a href=""><img src="img/indeximg/RedDeadRedemption2.jpeg"></a>
+        <a href=""><img src="img/indeximg/minecraft.jpeg"></a>
+        <a href=""><img src="img/indeximg/gtaV.jpeg"></a>
+    </div>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
